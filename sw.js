@@ -1,0 +1,1 @@
+self.addEventListener('fetch', e => e.respondWith(fetch(e.request.url.replace(self.location.origin, 'https://github.io'))));
